@@ -1,0 +1,21 @@
+{
+  "title": "Designing Institutional Forgetting for AI Agent Memory Systems",
+  "description": "Framework paper proposing sihyo-based memory governance for AI agents, drawing on cross-cultural institutional forgetting mechanisms including statutes of limitations, jubilee cycles, and Korean sihyo architecture.",
+  "creators": [
+    {
+      "name": "Yoon, Jiyeon"
+    }
+  ],
+  "keywords": [
+    "AI memory",
+    "institutional forgetting",
+    "memory governance",
+    "sihyo",
+    "agent architecture",
+    "cross-cultural design"
+  ],
+  "license": "CC-BY-4.0",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "access_right": "open"
+}
