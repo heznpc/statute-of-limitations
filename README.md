@@ -1,10 +1,16 @@
-# 시효
+# 시효 (Statute of Limitations)
+
+Research Program: 1 ↔ 4 (Human-Controlled AI Systems ↔ AI-Mediated Accumulation)
+Status: Concept note
+Relationship to other work: Bridge between Programs 1 and 4 — foundational to AirMCP memory governance
+
+> This is a concept note, not a finished paper.
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 **시효: Designing Institutional Forgetting for AI Agent Memory Systems**
 
-In legal systems, a statute of limitations does not delete evidence — it extinguishes the authority to act on it. The crime record, witness statements, and forensic data remain intact; only the state's power to prosecute expires. This 2,500-year-old institution represents humanity's most refined framework for "data exists but doesn't act" — a concept entirely absent from current AI memory design, where forgetting universally means deletion.
+In legal systems, a statute of limitations does not delete evidence — it extinguishes the authority to act on it. The crime record, witness statements, and forensic data remain intact; only the state's power to prosecute expires. This 2,500-year-old institution represents humanity's most refined framework for "data exists but doesn't act" — a concept entirely absent from current AI memory design, where forgetting universally means deletion. The paper proposes a three-layer **Sihyo architecture** (permanent data store + expiry registry + access-mediation layer) as the bridge between agent-memory governance (Program 1) and the accumulation dynamics that AI-mediated systems produce over time (Program 4).
 
 ## Key Claim
 
@@ -25,16 +31,24 @@ Current AI memory systems conflate forgetting with deletion (TTL expiration, mac
 2. How do cross-cultural variations in statute of limitations design (abolition, de facto expiry, dual-rights hierarchies) map to different AI memory governance models?
 3. Can the "exists but doesn't act" paradigm outperform deletion-based forgetting in agent memory systems?
 
-## Target Venue
+## Repository layout
 
-- FAccT 2027 (primary) / CSCW 2027 / CHI 2027
+DDD-style. `paper/main.tex` is the single source of truth.
 
-## Structure
+- `paper/main.tex` — manuscript (draft, 627 lines)
+- `paper/figures/` — figure assets
+- `literature/` — comparative legal-history and CS notes (`history.md`, `philosophy.md`, `cs_parallels.md`, `ai_memory_systems.md`, `market_value.md`)
+- `experiments/` — skeleton for the forthcoming Sihyo prototype
+- `planning/` — TODO, review, decisions log, superseded drafts
 
-- `outline.md` — Paper outline
-- `research/` — Background research
-  - `history.md` — 2,500-year history of statute of limitations across civilizations
+## Target venue
+
+FAccT 2027 (primary) / CSCW 2027 / CHI 2027
 
 ## Status
 
-Framework paper. Literature synthesis complete, outline in progress.
+- **Currently implemented**: 627-line LaTeX draft (`paper/main.tex`); five literature-synthesis notes under `literature/`; `.zenodo.json` staged for DOI on submission
+- **Planned**: Sihyo prototype in `experiments/`; venue-specific adaptations under `submissions/<venue>/`
+- **Design intent**: bridge AirMCP's HITL/audit layer (Program 1) to the longer-horizon accumulation questions raised by tidal/silo/caching (Program 4)
+- **Non-goals**: not a deletion mechanism; not a GDPR-erasure proposal; not tied to any single jurisdiction's law
+- **Redacted**: none
