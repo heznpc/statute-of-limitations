@@ -1,8 +1,10 @@
 # 시효 (Statute of Limitations)
 
-Research Program: 1 ↔ 4 (Human-Controlled AI Systems ↔ AI-Mediated Accumulation)
+```
+Research Program: 1 (Human-Controlled AI Systems)
 Status: Concept note
-Relationship to other work: Bridge between Programs 1 and 4 — foundational to AirMCP memory governance
+Relationship to other work: Bridges to Program 4 (AI-Mediated Accumulation); foundational to AirMCP memory governance
+```
 
 > This is a concept note, not a finished paper.
 
@@ -35,10 +37,10 @@ Current AI memory systems conflate forgetting with deletion (TTL expiration, mac
 
 DDD-style. `paper/main.tex` is the single source of truth.
 
-- `paper/main.tex` — manuscript (draft, 627 lines)
+- `paper/main.tex` — manuscript (draft)
 - `paper/figures/` — figure assets
 - `literature/` — comparative legal-history and CS notes (`history.md`, `philosophy.md`, `cs_parallels.md`, `ai_memory_systems.md`, `market_value.md`)
-- `experiments/` — skeleton for the forthcoming Sihyo prototype
+- `experiments/` — DDD layout for the forthcoming Sihyo prototype: `src/` (runnable scripts), `data/raw/` + `data/processed/` (immutable inputs / regenerated outputs), `results/`, `archive/` (superseded pipelines)
 - `planning/` — TODO, review, decisions log, superseded drafts
 
 ## Target venue
@@ -47,7 +49,7 @@ FAccT 2027 (primary) / CSCW 2027 / CHI 2027
 
 ## Status
 
-- **Currently implemented**: 627-line LaTeX draft (`paper/main.tex`); five literature-synthesis notes under `literature/`; `.zenodo.json` staged for DOI on submission
+- **Currently implemented**: LaTeX draft (`paper/main.tex`); five literature-synthesis notes under `literature/`; Zenodo deposition wired via GitHub release `v0.1.0` (2026-04-14) — see [Releases](https://github.com/heznpc/statute-of-limitations/releases) for the current DOI
 - **Planned**: Sihyo prototype in `experiments/`; venue-specific adaptations under `submissions/<venue>/`
 - **Design intent**: bridge AirMCP's HITL/audit layer (Program 1) to the longer-horizon accumulation questions raised by tidal/silo/caching (Program 4)
 - **Non-goals**: not a deletion mechanism; not a GDPR-erasure proposal; not tied to any single jurisdiction's law
