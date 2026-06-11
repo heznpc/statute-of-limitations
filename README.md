@@ -49,7 +49,7 @@ FAccT 2027 (primary) / CSCW 2027 / CHI 2027
 
 ## Status
 
-- **Currently implemented**: LaTeX draft (`paper/main.tex`); five literature-synthesis notes under `literature/`; Zenodo deposition wired via GitHub release `v0.1.0` (2026-04-14) — see [Releases](https://github.com/heznpc/statute-of-limitations/releases) for the current DOI
+- **Currently implemented**: LaTeX draft (`paper/main.tex`); five literature-synthesis notes under `literature/`; GitHub release `v0.1.0` (2026-04-14) published; Zenodo deposition not connected — no DOI issued yet
 - **Planned**: Sihyo prototype in `experiments/`; venue-specific adaptations under `submissions/<venue>/`
 - **Design intent**: bridge AirMCP's HITL/audit layer (Program 1) to the longer-horizon accumulation questions raised by tidal/silo/caching (Program 4)
 - **Non-goals**: not a deletion mechanism; not a GDPR-erasure proposal; not tied to any single jurisdiction's law
